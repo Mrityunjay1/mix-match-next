@@ -14,7 +14,7 @@ function TopNav() {
   return (
     <Navbar
       maxWidth="xl"
-      className="bg-gradient-to-r from-purple-400 to-purple-700"
+      className="bg-gradient-to-r from-red-400 to-red-700"
       classNames={{
         item: [
           "text-xl",
@@ -27,7 +27,7 @@ function TopNav() {
       <NavbarBrand as={Link} href="/">
         <GiMatchTip size={40} className="text-gray-200" />
         <div className="font-bold text-3xl flex">
-          <span className="text-gray-900">Next</span>
+          <span className="text-gray-900">Mix</span>
           <span className="text-gray-200">Match</span>
         </div>
       </NavbarBrand>
